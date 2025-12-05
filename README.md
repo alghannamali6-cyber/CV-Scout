@@ -33,3 +33,30 @@ Key features:
 
 ---
 
+## 📂 Project Structure
+
+cv-matcher-ai/
+│── jd_agent.py # JD chunking & preprocessing
+│── cv_agent.py # CV reading & chunking
+│── comp_agent.py # LLM comparison & scoring
+│── config.py # API keys, model, and system config
+│── utils.py # PDF reading, text cleaning, chunking
+│── main.py # Backend pipeline
+│── requirements.txt # Python dependencies
+│── .env # Your API key (ignored by Git)
+│── README.md # Project description
+│── .gitignore # Ignore sensitive/unnecessary files
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python 3.10+**  
+- **Streamlit** for UI  
+- **OpenAI GPT models** for CV evaluation  
+- **PyPDF2** for PDF parsing  
+- **python-dotenv** for environment variables  
+
+---
+
